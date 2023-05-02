@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		C37BC8762A008E5500ACED99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BC8752A008E5500ACED99 /* AppDelegate.swift */; };
 		C37BC8782A008E5500ACED99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BC8772A008E5500ACED99 /* SceneDelegate.swift */; };
-		C37BC87A2A008E5500ACED99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BC8792A008E5500ACED99 /* ViewController.swift */; };
-		C37BC87D2A008E5500ACED99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37BC87B2A008E5500ACED99 /* Main.storyboard */; };
 		C37BC87F2A008E5600ACED99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37BC87E2A008E5600ACED99 /* Assets.xcassets */; };
 		C37BC8822A008E5600ACED99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37BC8802A008E5600ACED99 /* LaunchScreen.storyboard */; };
+		C37BC88E2A008EE300ACED99 /* PrioritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BC88D2A008EE300ACED99 /* PrioritiesViewController.swift */; };
+		C37BC8912A00989D00ACED99 /* PriorityListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BC8902A00989D00ACED99 /* PriorityListCollectionViewCell.swift */; };
+		C37BC8932A009C8100ACED99 /* PrioritiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BC8922A009C8100ACED99 /* PrioritiesView.swift */; };
+		C37BC8962A00A53C00ACED99 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BC8952A00A53C00ACED99 /* Category.swift */; };
+		C37BC8992A00A85D00ACED99 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BC8982A00A85D00ACED99 /* UIColor+Extension.swift */; };
+		C37BC89B2A00AD6000ACED99 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BC89A2A00AD6000ACED99 /* Page.swift */; };
+		C37BC89D2A00AECA00ACED99 /* PageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BC89C2A00AECA00ACED99 /* PageCollectionViewCell.swift */; };
+		C37BC89F2A00B93300ACED99 /* PagecontrollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37BC89E2A00B93300ACED99 /* PagecontrollCollectionViewCell.swift */; };
+		C3FB08B32A0184F9006D1DE4 /* PronunciationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FB08B22A0184F9006D1DE4 /* PronunciationViewController.swift */; };
+		C3FB08B52A0186AC006D1DE4 /* PronunciationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FB08B42A0186AC006D1DE4 /* PronunciationView.swift */; };
+		C3FB08B72A0191B4006D1DE4 /* PronunciationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FB08B62A0191B4006D1DE4 /* PronunciationCard.swift */; };
+		C3FB08BA2A019377006D1DE4 /* PronunciationCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FB08B92A019377006D1DE4 /* PronunciationCardCollectionViewCell.swift */; };
+		C3FB08BC2A01961F006D1DE4 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FB08BB2A01961F006D1DE4 /* UICollectionViewCell+Extension.swift */; };
+		C3FB08BE2A01A30B006D1DE4 /* SynonymsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FB08BD2A01A30B006D1DE4 /* SynonymsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C37BC8722A008E5500ACED99 /* LanguageLearningApllication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageLearningApllication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37BC8752A008E5500ACED99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C37BC8772A008E5500ACED99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C37BC8792A008E5500ACED99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C37BC87C2A008E5500ACED99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C37BC87E2A008E5600ACED99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C37BC8812A008E5600ACED99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C37BC8832A008E5600ACED99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37BC88D2A008EE300ACED99 /* PrioritiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrioritiesViewController.swift; sourceTree = "<group>"; };
+		C37BC8902A00989D00ACED99 /* PriorityListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityListCollectionViewCell.swift; sourceTree = "<group>"; };
+		C37BC8922A009C8100ACED99 /* PrioritiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrioritiesView.swift; sourceTree = "<group>"; };
+		C37BC8952A00A53C00ACED99 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C37BC8982A00A85D00ACED99 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		C37BC89A2A00AD6000ACED99 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		C37BC89C2A00AECA00ACED99 /* PageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C37BC89E2A00B93300ACED99 /* PagecontrollCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagecontrollCollectionViewCell.swift; sourceTree = "<group>"; };
+		C3FB08B22A0184F9006D1DE4 /* PronunciationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronunciationViewController.swift; sourceTree = "<group>"; };
+		C3FB08B42A0186AC006D1DE4 /* PronunciationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronunciationView.swift; sourceTree = "<group>"; };
+		C3FB08B62A0191B4006D1DE4 /* PronunciationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronunciationCard.swift; sourceTree = "<group>"; };
+		C3FB08B92A019377006D1DE4 /* PronunciationCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronunciationCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		C3FB08BB2A01961F006D1DE4 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
+		C3FB08BD2A01A30B006D1DE4 /* SynonymsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynonymsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,91 @@
 		C37BC8742A008E5500ACED99 /* LanguageLearningApllication */ = {
 			isa = PBXGroup;
 			children = (
-				C37BC8752A008E5500ACED99 /* AppDelegate.swift */,
-				C37BC8772A008E5500ACED99 /* SceneDelegate.swift */,
-				C37BC8792A008E5500ACED99 /* ViewController.swift */,
-				C37BC87B2A008E5500ACED99 /* Main.storyboard */,
+				C37BC8972A00A84E00ACED99 /* Extensions */,
+				C37BC8942A00A53400ACED99 /* Models */,
+				C37BC88A2A008E8A00ACED99 /* Views */,
+				C37BC8892A008E6200ACED99 /* Base */,
 				C37BC87E2A008E5600ACED99 /* Assets.xcassets */,
 				C37BC8802A008E5600ACED99 /* LaunchScreen.storyboard */,
 				C37BC8832A008E5600ACED99 /* Info.plist */,
 			);
 			path = LanguageLearningApllication;
+			sourceTree = "<group>";
+		};
+		C37BC8892A008E6200ACED99 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C37BC8752A008E5500ACED99 /* AppDelegate.swift */,
+				C37BC8772A008E5500ACED99 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C37BC88A2A008E8A00ACED99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3FB08B12A0184C4006D1DE4 /* Pronunciation */,
+				C3FB08B02A0184B5006D1DE4 /* Priorities */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C37BC88F2A00988D00ACED99 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C37BC8902A00989D00ACED99 /* PriorityListCollectionViewCell.swift */,
+				C37BC89C2A00AECA00ACED99 /* PageCollectionViewCell.swift */,
+				C37BC89E2A00B93300ACED99 /* PagecontrollCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C37BC8942A00A53400ACED99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C37BC8952A00A53C00ACED99 /* Category.swift */,
+				C37BC89A2A00AD6000ACED99 /* Page.swift */,
+				C3FB08B62A0191B4006D1DE4 /* PronunciationCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C37BC8972A00A84E00ACED99 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C37BC8982A00A85D00ACED99 /* UIColor+Extension.swift */,
+				C3FB08BB2A01961F006D1DE4 /* UICollectionViewCell+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C3FB08B02A0184B5006D1DE4 /* Priorities */ = {
+			isa = PBXGroup;
+			children = (
+				C37BC88D2A008EE300ACED99 /* PrioritiesViewController.swift */,
+				C37BC8922A009C8100ACED99 /* PrioritiesView.swift */,
+				C37BC88F2A00988D00ACED99 /* Cell */,
+			);
+			path = Priorities;
+			sourceTree = "<group>";
+		};
+		C3FB08B12A0184C4006D1DE4 /* Pronunciation */ = {
+			isa = PBXGroup;
+			children = (
+				C3FB08B82A019367006D1DE4 /* Cell */,
+				C3FB08B22A0184F9006D1DE4 /* PronunciationViewController.swift */,
+				C3FB08B42A0186AC006D1DE4 /* PronunciationView.swift */,
+			);
+			path = Pronunciation;
+			sourceTree = "<group>";
+		};
+		C3FB08B82A019367006D1DE4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C3FB08B92A019377006D1DE4 /* PronunciationCardCollectionViewCell.swift */,
+				C3FB08BD2A01A30B006D1DE4 /* SynonymsCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +227,6 @@
 			files = (
 				C37BC8822A008E5600ACED99 /* LaunchScreen.storyboard in Resources */,
 				C37BC87F2A008E5600ACED99 /* Assets.xcassets in Resources */,
-				C37BC87D2A008E5500ACED99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +237,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37BC87A2A008E5500ACED99 /* ViewController.swift in Sources */,
+				C3FB08B32A0184F9006D1DE4 /* PronunciationViewController.swift in Sources */,
+				C37BC8912A00989D00ACED99 /* PriorityListCollectionViewCell.swift in Sources */,
+				C37BC8962A00A53C00ACED99 /* Category.swift in Sources */,
+				C37BC89F2A00B93300ACED99 /* PagecontrollCollectionViewCell.swift in Sources */,
+				C3FB08BE2A01A30B006D1DE4 /* SynonymsCollectionViewCell.swift in Sources */,
+				C3FB08BA2A019377006D1DE4 /* PronunciationCardCollectionViewCell.swift in Sources */,
+				C37BC89D2A00AECA00ACED99 /* PageCollectionViewCell.swift in Sources */,
+				C37BC89B2A00AD6000ACED99 /* Page.swift in Sources */,
 				C37BC8762A008E5500ACED99 /* AppDelegate.swift in Sources */,
+				C3FB08BC2A01961F006D1DE4 /* UICollectionViewCell+Extension.swift in Sources */,
 				C37BC8782A008E5500ACED99 /* SceneDelegate.swift in Sources */,
+				C37BC88E2A008EE300ACED99 /* PrioritiesViewController.swift in Sources */,
+				C37BC8992A00A85D00ACED99 /* UIColor+Extension.swift in Sources */,
+				C3FB08B52A0186AC006D1DE4 /* PronunciationView.swift in Sources */,
+				C3FB08B72A0191B4006D1DE4 /* PronunciationCard.swift in Sources */,
+				C37BC8932A009C8100ACED99 /* PrioritiesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C37BC87B2A008E5500ACED99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C37BC87C2A008E5500ACED99 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C37BC8802A008E5600ACED99 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +396,6 @@
 				INFOPLIST_FILE = LanguageLearningApllication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +423,6 @@
 				INFOPLIST_FILE = LanguageLearningApllication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
